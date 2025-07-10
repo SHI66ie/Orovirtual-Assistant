@@ -5,7 +5,7 @@
   "homepage": "https://SHI66ie.github.io/Orovirtual-Assistant",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && xcopy /E /I /Y public dist\\public && echo. > dist\\.nojekyll",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
