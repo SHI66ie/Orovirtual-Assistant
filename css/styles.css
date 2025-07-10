@@ -66,16 +66,22 @@ header .container {
     padding: 1rem 20px;
 }
 
-.logo h1 {
-    color: var(--secondary-color);
-    font-size: 1.8rem;
-    margin: 0;
+.logo {
+    height: 60px; /* Fixed height for the logo container */
+    display: flex;
+    align-items: center;
 }
 
-.tagline {
-    color: var(--accent-color);
-    font-size: 0.9rem;
-    margin: 0;
+.site-logo {
+    height: 100%;
+    width: auto;
+    max-width: 200px; /* Adjust based on your logo's aspect ratio */
+    transition: var(--transition);
+}
+
+.site-logo:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
 }
 
 nav ul {
