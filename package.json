@@ -2,7 +2,7 @@
   "name": "virtual-assistant-site",
   "version": "1.0.0",
   "description": "Professional Virtual Assistant Services Website",
-  "homepage": "https://SHI66ie.github.io/Orovirtual-Assistant",
+  "homepage": "https://orovirtualassistant.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
